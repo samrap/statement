@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    @apply my-12;
+    @apply leading-relaxed;
+}
+
+a {
+    @apply text-blue-600;
+    @apply underline;
+}
+
+blockquote {
+    @apply block;
+    @apply py-10;
+    @apply text-xl;
+    @apply text-gray-600;
+    @apply font-bold;
+    @apply border-t;
+    @apply border-b;
+}
+
+li {
+    @apply block;
+    @apply mb-4;
+}
